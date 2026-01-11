@@ -1,6 +1,5 @@
-# Codeforces Solutions (JavaScript)
-
-This repository contains my solutions to Codeforces problems solved in Cpp
+# Codeforces questions that I Solved...
+This repository contains my solutions to Codeforces problems that I have solved.
 I use this repo to track my progress, improve problem-solving skills, and practice algorithms.
 
 ## Contents
