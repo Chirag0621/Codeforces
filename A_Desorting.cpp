@@ -1,13 +1,12 @@
 #include<iostream>
-#include<vector>
 using namespace std;
 int main(){
   int t;
   cin>>t;
   while(t--){
-    int n;
+    long long n;
     cin>>n;
-    vector<long> a(n);
+    long long a[n];
     for(int i=0;i<n;i++){
       cin>>a[i];
     }
