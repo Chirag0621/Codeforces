@@ -10,25 +10,21 @@ int main()
         long long n; // Length of the array
         cin >> n;
         long long a[n]; // Array to store the elements
-        for (int i = 0; i < n; i++) // Loop to input array elements
+        long long Xora = 0;
+        for (int i = 0; i < n; i++){
             cin >> a[i];
-        // Inputs are read into the array
-
-        long long total_xor = 0; // Variable to store the XOR of all elements
-        for (int i = 0; i < n; i++) // Loop to calculate XOR of all elements
-            total_xor ^= a[i]; // XOR operation
-        // XOR of all elements in the array is calculated
-
-        if (n % 2 == 1) // Check if the number of elements is odd
+            Xora = Xora ^ a[i];
+        } // Loop to input array elements
+        if (n % 2 == 1)
         {
-            cout << total_xor << endl; // Output the XOR if n is odd
+            cout << Xora << "\n";
         }
-        else // If the number of elements is even
+        else
         {
-            if (total_xor == 0) // Check if the total XOR is zero
-                cout << total_xor << endl; // Output zero if total XOR is zero
+            if (Xora == 0)
+                cout << 0 << "\n";
             else
-                cout << -1 << endl; // Output -1 if total XOR is not zero
+                cout << -1 << "\n";
         }
     }
     return 0;
