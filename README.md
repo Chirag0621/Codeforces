@@ -6,18 +6,25 @@
 
 | Total Problems | Topics |
 |---|---|
-| 1 | 4 |
+| 2 | 5 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
+- [combinatorics](#combinatorics) (1)
 - [dfs and similar](#dfs-and-similar) (1)
 - [dp](#dp) (1)
 - [greedy](#greedy) (1)
-- [math](#math) (1)
+- [math](#math) (2)
 
 ---
+
+### combinatorics
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1582B | [Luntik and Subsequences](https://codeforces.com/contest/1582/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/1582/B%20-%20Luntik%20and%20Subsequences/solution.cpp) |
 
 ### dfs and similar
 
@@ -41,6 +48,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1582B | [Luntik and Subsequences](https://codeforces.com/contest/1582/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/1582/B%20-%20Luntik%20and%20Subsequences/solution.cpp) |
 | 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.cpp) |
 
 ---
