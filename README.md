@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 9 | 10 |
+| 10 | 11 |
 
 ---
 
@@ -19,6 +19,7 @@
 - [data structures](#data-structures) (1)
 - [dfs and similar](#dfs-and-similar) (1)
 - [dp](#dp) (1)
+- [games](#games) (1)
 - [greedy](#greedy) (5)
 - [math](#math) (8)
 - [number theory](#number-theory) (3)
@@ -67,6 +68,12 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.cpp) |
+
+### games
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1373B | [01 Game](https://codeforces.com/contest/1373/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/1373/B%20-%2001%20Game/solution.cpp) |
 
 ### greedy
 
