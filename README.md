@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 27 | 15 |
+| 28 | 15 |
 
 ---
 
@@ -20,7 +20,7 @@
 - [dfs and similar](#dfs-and-similar) (1)
 - [dp](#dp) (1)
 - [games](#games) (2)
-- [greedy](#greedy) (15)
+- [greedy](#greedy) (16)
 - [implementation](#implementation) (2)
 - [math](#math) (19)
 - [number theory](#number-theory) (5)
@@ -94,6 +94,7 @@
 | 1537B | [Bad Boy](https://codeforces.com/contest/1537/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/1537/B%20-%20Bad%20Boy/solution.cpp) |
 | 1543A | [Exciting Bets](https://codeforces.com/contest/1543/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/1543/A%20-%20Exciting%20Bets/solution.cpp) |
 | 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.cpp) |
+| 2227B | [Party Monster](https://codeforces.com/contest/2227/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2227/B%20-%20Party%20Monster/solution.cpp) |
 | 2228A | [Marisa Steals Reimu's Takeout](https://codeforces.com/contest/2228/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2228/A%20-%20Marisa%20Steals%20Reimu's%20Takeout/solution.cpp) |
 | 2229A | [Slimes on a Line](https://codeforces.com/contest/2229/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2229/A%20-%20Slimes%20on%20a%20Line/solution.cpp) |
 | 2229B | [Absolute Cinema](https://codeforces.com/contest/2229/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2229/B%20-%20Absolute%20Cinema/solution.cpp) |
