@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 32 | 15 |
+| 33 | 15 |
 
 ---
 
@@ -15,12 +15,12 @@
 - [bitmasks](#bitmasks) (1)
 - [brute force](#brute-force) (4)
 - [combinatorics](#combinatorics) (1)
-- [constructive algorithms](#constructive-algorithms) (5)
+- [constructive algorithms](#constructive-algorithms) (6)
 - [data structures](#data-structures) (1)
 - [dfs and similar](#dfs-and-similar) (1)
 - [dp](#dp) (2)
 - [games](#games) (2)
-- [greedy](#greedy) (18)
+- [greedy](#greedy) (19)
 - [implementation](#implementation) (3)
 - [math](#math) (23)
 - [number theory](#number-theory) (5)
@@ -57,6 +57,7 @@
 |---|---------|------------|----------|
 | 1537B | [Bad Boy](https://codeforces.com/contest/1537/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/1537/B%20-%20Bad%20Boy/solution.cpp) |
 | 1559A | [Mocha and Math](https://codeforces.com/contest/1559/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/1559/A%20-%20Mocha%20and%20Math/solution.cpp) |
+| 2224A | [Zhily and Array Operating](https://codeforces.com/contest/2224/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2224/A%20-%20Zhily%20and%20Array%20Operating/solution.cpp) |
 | 2227C | [Snowfall](https://codeforces.com/contest/2227/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2227/C%20-%20Snowfall/solution.cpp) |
 | 2231A | [Construct an Array](https://codeforces.com/contest/2231/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2231/A%20-%20Construct%20an%20Array/solution.cpp) |
 | 2234B | [Palindrome, Twelve and Two Terms](https://codeforces.com/contest/2234/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2234/B%20-%20Palindrome%2C%20Twelve%20and%20Two%20Terms/solution.cpp) |
@@ -96,6 +97,7 @@
 | 1537B | [Bad Boy](https://codeforces.com/contest/1537/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/1537/B%20-%20Bad%20Boy/solution.cpp) |
 | 1543A | [Exciting Bets](https://codeforces.com/contest/1543/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/1543/A%20-%20Exciting%20Bets/solution.cpp) |
 | 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.cpp) |
+| 2224A | [Zhily and Array Operating](https://codeforces.com/contest/2224/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2224/A%20-%20Zhily%20and%20Array%20Operating/solution.cpp) |
 | 2225A | [A Number Between Two Others](https://codeforces.com/contest/2225/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2225/A%20-%20A%20Number%20Between%20Two%20Others/solution.cpp) |
 | 2226A | [Disturbing Distribution](https://codeforces.com/contest/2226/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2226/A%20-%20Disturbing%20Distribution/solution.cpp) |
 | 2227B | [Party Monster](https://codeforces.com/contest/2227/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2227/B%20-%20Party%20Monster/solution.cpp) |
