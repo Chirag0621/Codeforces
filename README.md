@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 41 | 15 |
+| 42 | 15 |
 
 ---
 
@@ -20,10 +20,10 @@
 - [dfs and similar](#dfs-and-similar) (1)
 - [dp](#dp) (2)
 - [games](#games) (2)
-- [greedy](#greedy) (22)
+- [greedy](#greedy) (23)
 - [implementation](#implementation) (5)
-- [math](#math) (28)
-- [number theory](#number-theory) (5)
+- [math](#math) (29)
+- [number theory](#number-theory) (6)
 - [schedules](#schedules) (1)
 - [sortings](#sortings) (7)
 - [strings](#strings) (3)
@@ -117,6 +117,7 @@
 | 2238A | [Another Puzzle from Papyrus](https://codeforces.com/contest/2238/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2238/A%20-%20Another%20Puzzle%20from%20Papyrus/solution.cpp) |
 | 2240A | [Another Popcount Problem](https://codeforces.com/contest/2240/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2240/A%20-%20Another%20Popcount%20Problem/solution.cpp) |
 | 2241A | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2241/A%20-%20Divide%20and%20Conquer/solution.cpp) |
+| 2253A | [The Best Card](https://codeforces.com/contest/2253/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2253/A%20-%20The%20Best%20Card/solution.cpp) |
 
 ### implementation
 
@@ -158,6 +159,7 @@
 | 2238A | [Another Puzzle from Papyrus](https://codeforces.com/contest/2238/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2238/A%20-%20Another%20Puzzle%20from%20Papyrus/solution.cpp) |
 | 2241A | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2241/A%20-%20Divide%20and%20Conquer/solution.cpp) |
 | 2250A | [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2250/A%20-%20Threshold%20Movement/solution.cpp) |
+| 2253A | [The Best Card](https://codeforces.com/contest/2253/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2253/A%20-%20The%20Best%20Card/solution.cpp) |
 | 2256A | [Three Numbers on the Blackboard](https://codeforces.com/contest/2256/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2256/A%20-%20Three%20Numbers%20on%20the%20Blackboard/solution.cpp) |
 | 2257B | [Gigantomachy](https://codeforces.com/contest/2257/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2257/B%20-%20Gigantomachy/solution.cpp) |
 
@@ -170,6 +172,7 @@
 | 1543A | [Exciting Bets](https://codeforces.com/contest/1543/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/1543/A%20-%20Exciting%20Bets/solution.cpp) |
 | 2234A | [Euclid, Sequence and Two Numbers](https://codeforces.com/contest/2234/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2234/A%20-%20Euclid%2C%20Sequence%20and%20Two%20Numbers/solution.cpp) |
 | 2241A | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2241/A%20-%20Divide%20and%20Conquer/solution.cpp) |
+| 2253A | [The Best Card](https://codeforces.com/contest/2253/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2253/A%20-%20The%20Best%20Card/solution.cpp) |
 
 ### schedules
 
