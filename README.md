@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 38 | 15 |
+| 39 | 15 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [bitmasks](#bitmasks) (1)
-- [brute force](#brute-force) (5)
+- [brute force](#brute-force) (6)
 - [combinatorics](#combinatorics) (1)
 - [constructive algorithms](#constructive-algorithms) (7)
 - [data structures](#data-structures) (1)
@@ -26,7 +26,7 @@
 - [number theory](#number-theory) (5)
 - [schedules](#schedules) (1)
 - [sortings](#sortings) (5)
-- [strings](#strings) (2)
+- [strings](#strings) (3)
 
 ---
 
@@ -45,6 +45,7 @@
 | 2229A | [Slimes on a Line](https://codeforces.com/contest/2229/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2229/A%20-%20Slimes%20on%20a%20Line/solution.cpp) |
 | 2234B | [Palindrome, Twelve and Two Terms](https://codeforces.com/contest/2234/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2234/B%20-%20Palindrome%2C%20Twelve%20and%20Two%20Terms/solution.cpp) |
 | 2250A | [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2250/A%20-%20Threshold%20Movement/solution.cpp) |
+| 2257A | [Creating Abbreviations](https://codeforces.com/contest/2257/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2257/A%20-%20Creating%20Abbreviations/solution.cpp) |
 
 ### combinatorics
 
@@ -190,6 +191,7 @@
 |---|---------|------------|----------|
 | 2236B | [Tatar TV Show](https://codeforces.com/contest/2236/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2236/B%20-%20Tatar%20TV%20Show/solution.cpp) |
 | 2242A | [Bigrams](https://codeforces.com/contest/2242/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2242/A%20-%20Bigrams/solution.cpp) |
+| 2257A | [Creating Abbreviations](https://codeforces.com/contest/2257/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2257/A%20-%20Creating%20Abbreviations/solution.cpp) |
 
 ---
 
