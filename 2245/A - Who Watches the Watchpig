@@ -1,17 +1,213 @@
-<h2><a href="https://codeforces.com/contest/2245/problem/A" target="_blank" rel="noopener noreferrer">2245A — Who Watches the Watchpig?</a></h2>
-
-| | |
-|---|---|
-| **Difficulty** | 800 |
-| **Language** | C++17 (GCC 7-32) |
-| **Verdict** | ✅ Accepted |
-| **Problem Link** | [Codeforces 2245A](https://codeforces.com/contest/2245/problem/A) |
-
-## Topics
-`greedy`
-
----
-
-## Problem Statement
-
-<div class="header"><div class="title">A. Who Watches the Watchpig?</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>There are $$$n$$$ piggies standing in a line, numbered from $$$1$$$ to $$$n$$$ from left to right. Each piggy is either facing left or right. </p><p>Two piggies $$$x$$$ and $$$y$$$ are called a <span class="tex-font-style-it">watchpig pair</span> if $$$x  \lt  y$$$, $$$x$$$ is facing right, and $$$y$$$ is facing left.</p><p>You are given an integer $$$k$$$ such that $$$1 \le k  \lt  n$$$. A piggy is called <span class="tex-font-style-it">safe</span> if it belongs to at least $$$k$$$ watchpig pairs. </p><p>Your task is to make all piggies safe. To achieve this, you can choose any number of piggies and flip their directions (changing left to right or vice versa). </p><p>Compute the minimum number of piggies you need to turn around so that every piggy becomes safe, or report that it is impossible to do so.</p></div><div class="input-specification"><div class="section-title">Input</div><p>Each test contains multiple test cases. The first line contains the number of test cases $$$t$$$ ($$$1 \le t \le 500$$$). The description of the test cases follows.</p><p>The first line of each test case contains two integers $$$n$$$ and $$$k$$$ ($$$1 \le k  \lt  n \le 100$$$), representing the number of piggies and the number of watchpig pairs a piggy needs to belong to, respectively.</p><p>The second line contains a string $$$s$$$ of length $$$n$$$ consisting only of the characters $$$\mathtt{L}$$$ and $$$\mathtt{R}$$$. For every $$$1 \le i \le n$$$, if $$$s_i= \mathtt{L}$$$, piggy $$$i$$$ is facing left; otherwise, if $$$s_i= \mathtt{R}$$$, piggy $$$i$$$ is facing right.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, if it is impossible to make every piggy safe, output $$$-1$$$. Otherwise, output the minimum number of piggies you need to turn around so that every piggy becomes safe.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id009506562816241574" id="id0020884917035023132" class="input-output-copier">Copy</div></div><pre id="id009506562816241574"><div class="test-example-line test-example-line-even test-example-line-0">4</div><div class="test-example-line test-example-line-odd test-example-line-1">3 1</div><div class="test-example-line test-example-line-odd test-example-line-1">LLL</div><div class="test-example-line test-example-line-even test-example-line-2">4 3</div><div class="test-example-line test-example-line-even test-example-line-2">LRLR</div><div class="test-example-line test-example-line-odd test-example-line-3">6 2</div><div class="test-example-line test-example-line-odd test-example-line-3">RLLRRL</div><div class="test-example-line test-example-line-even test-example-line-4">12 4</div><div class="test-example-line test-example-line-even test-example-line-4">LRLLRRLRLRLR</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id008679369938437496" id="id008203236550344145" class="input-output-copier">Copy</div></div><pre id="id008679369938437496"><div class="test-example-line test-example-line-odd test-example-line-1">1</div><div class="test-example-line test-example-line-even test-example-line-2">-1</div><div class="test-example-line test-example-line-odd test-example-line-3">2</div><div class="test-example-line test-example-line-even test-example-line-4">5</div></pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, one optimal solution is to turn piggy $$$1$$$ around. Both piggy $$$1$$$ and piggy $$$3$$$ now belong to the watchpig pair $$$(1,3)$$$, and piggy $$$2$$$ belongs to the watchpig pair $$$(1,2)$$$. Every piggy belongs to at least $$$k=1$$$ watchpig pairs, hence every piggy is safe.</p><p>In the second test case, it can be proven that it is impossible to make every piggy safe.</p><p>In the third test case, one optimal solution is to turn piggies $$$2$$$ and $$$5$$$ around. For example, piggy $$$2$$$ is now safe, as it belongs to both $$$(2,3)$$$ and $$$(2,5)$$$. Piggy $$$4$$$ is also safe, as it belongs to both $$$(4,5)$$$ and $$$(4,6)$$$. The rest of the piggies are all safe. </p></div>
+#include <bits/stdc++.h>
+using namespace std;
+ 
+//--------------------------------------------------
+// Typedefs
+//--------------------------------------------------
+ 
+using ll = long long;
+using ull = unsigned long long;
+using ld = long double;
+ 
+using pii = pair<int, int>;
+using pll = pair<ll, ll>;
+ 
+using vi = vector<int>;
+using vll = vector<ll>;
+using vii = vector<pii>;
+using vpll = vector<pll>;
+ 
+//--------------------------------------------------
+// Constants
+//--------------------------------------------------
+ 
+const int INF = 1e9;
+const ll LINF = 1e18;
+const int MOD = 1e9 + 7;
+const int MOD2 = 998244353;
+const double PI = acos(-1.0);
+ 
+//--------------------------------------------------
+// Macros
+//--------------------------------------------------
+ 
+#define pb push_back
+#define eb emplace_back
+#define ff first
+#define ss second
+#define mp make_pair
+ 
+#define all(v) (v).begin(), (v).end()
+#define rall(v) (v).rbegin(), (v).rend()
+ 
+#define sz(x) ((int)(x).size())
+ 
+// Loops
+#define rep(i,a,b) for(int i=(a); i<(b); i++)
+#define per(i,a,b) for(int i=(a); i>=(b); i--)
+ 
+// Range-based loops
+#define foreach(x,v) for(auto &x : (v))
+#define foreach_const(x,v) for(const auto &x : (v))
+ 
+// Input / Output
+#define inp(v) for(auto &x : (v)) cin >> x
+#define out(v) for(const auto &x : (v)) cout << x << ' '; cout << '
+'
+ 
+// Common outputs
+#define yes cout << "YES
+"
+#define no cout << "NO
+"
+ 
+#define endl '
+'
+#define nl cout << '
+'
+ 
+// STL shortcuts
+#define lb lower_bound
+#define ub upper_bound
+ 
+// Vector helpers
+#define uniq(v) v.erase(unique(all(v)), v.end())
+#define maxele(v) (*max_element(all(v)))
+#define minele(v) (*min_element(all(v)))
+#define sum(v) accumulate(all(v), 0LL)
+ 
+// Bit manipulation
+#define bitcount(x) __builtin_popcountll(x)
+#define ctz(x) __builtin_ctzll(x)
+#define clz(x) __builtin_clzll(x)
+ 
+//--------------------------------------------------
+// Fast IO
+//--------------------------------------------------
+ 
+void fastIO() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+}
+ 
+//--------------------------------------------------
+// Math Utilities
+//--------------------------------------------------
+ 
+ll gcd(ll a, ll b) {
+    return __gcd(a, b);
+}
+ 
+ll lcm(ll a, ll b) {
+    return a / gcd(a, b) * b;
+}
+ 
+ll power(ll a, ll b) {
+    ll ans = 1;
+    while (b) {
+        if (b & 1)
+            ans *= a;
+        a *= a;
+        b >>= 1;
+    }
+    return ans;
+}
+ 
+ll modPower(ll a, ll b, ll mod = MOD) {
+    ll ans = 1;
+    a %= mod;
+    while (b) {
+        if (b & 1)
+            ans = ans * a % mod;
+        a = a * a % mod;
+        b >>= 1;
+    }
+    return ans;
+}
+ 
+ll modInverse(ll a, ll mod = MOD) {
+    return modPower(a, mod - 2, mod);
+}
+ 
+//--------------------------------------------------
+// Debug / Print Helpers
+//--------------------------------------------------
+ 
+template<typename T>
+void print(T x) {
+    cout << x << endl;
+}
+ 
+template<typename T>
+void print(vector<T> &v) {
+    foreach_const(x, v)
+        cout << x << ' ';
+    cout << endl;
+}
+ 
+template<typename T>
+void debug(vector<T> &v) {
+    cout << "[ ";
+    foreach_const(x, v)
+        cout << x << ' ';
+    cout << "]
+";
+}
+ 
+template<typename T1, typename T2>
+void print(pair<T1, T2> p) {
+    cout << p.ff << " " << p.ss << endl;
+}
+ 
+//--------------------------------------------------
+// Solve Function
+//--------------------------------------------------
+ 
+void solve() {
+    int n, k;
+    cin >> n >> k;
+ 
+    string s;
+    cin >> s;
+ 
+    // First k must be R, last k must be L
+    if (2 * k > n) {
+        cout << -1 << '
+';
+        return;
+    }
+ 
+    int ans = 0;
+ 
+    // First k positions should be R
+    for (int i = 0; i < k; i++) {
+        if (s[i] == 'L')
+            ans++;
+    }
+ 
+    // Last k positions should be L
+    for (int i = n - k; i < n; i++) {
+        if (s[i] == 'R')
+            ans++;
+    }
+ 
+    cout << ans << '
+';
+}
+ 
+//--------------------------------------------------
+// Main
+//--------------------------------------------------
+ 
+int main() {
+ 
+    fastIO();
+ 
+    int T = 1;
+    cin >> T;
+ 
+    while (T--)
+        solve();
+ 
+    return 0;
+}
