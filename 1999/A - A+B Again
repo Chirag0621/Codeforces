@@ -1,25 +1,193 @@
-<h2><a href="https://codeforces.com/contest/1999/problem/A" target="_blank" rel="noopener noreferrer">1999A — A+B Again?</a></h2>
-
-| | |
-|---|---|
-| **Difficulty** | 800 |
-| **Language** | C++17 (GCC 7-32) |
-| **Verdict** | ✅ Accepted |
-| **Problem Link** | [Codeforces 1999A](https://codeforces.com/contest/1999/problem/A) |
-
-## Topics
-`implementation` `math`
-
----
-
-## Problem Statement
-
-<div class="header"><div class="title">A. A+B Again?</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Given a two-digit positive integer $$$n$$$, find the sum of its digits.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains an integer $$$t$$$ ($$$1 \leq t \leq 90$$$) — the number of test cases.</p><p>The only line of each test case contains a single two-digit positive integer $$$n$$$ ($$$10 \leq n \leq 99$$$).</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output a single integer — the sum of the digits of $$$n$$$.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id009319140475934887" id="id008392070990405809" class="input-output-copier">Copy</div></div><pre id="id009319140475934887"><div class="test-example-line test-example-line-even test-example-line-0">8</div><div class="test-example-line test-example-line-odd test-example-line-1">77</div><div class="test-example-line test-example-line-even test-example-line-2">21</div><div class="test-example-line test-example-line-odd test-example-line-3">40</div><div class="test-example-line test-example-line-even test-example-line-4">34</div><div class="test-example-line test-example-line-odd test-example-line-5">19</div><div class="test-example-line test-example-line-even test-example-line-6">84</div><div class="test-example-line test-example-line-odd test-example-line-7">10</div><div class="test-example-line test-example-line-even test-example-line-8">99</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id005310497811285912" id="id0030698948696658623" class="input-output-copier">Copy</div></div><pre id="id005310497811285912">14
-3
-4
-7
-10
-12
-1
-18
-</pre></div></div></div>
+#include <bits/stdc++.h>
+using namespace std;
+ 
+//--------------------------------------------------
+// Typedefs
+//--------------------------------------------------
+ 
+using ll = long long;
+using ull = unsigned long long;
+using ld = long double;
+ 
+using pii = pair<int, int>;
+using pll = pair<ll, ll>;
+ 
+using vi = vector<int>;
+using vll = vector<ll>;
+using vii = vector<pii>;
+using vpll = vector<pll>;
+ 
+//--------------------------------------------------
+// Constants
+//--------------------------------------------------
+ 
+const int INF = 1e9;
+const ll LINF = 1e18;
+const int MOD = 1e9 + 7;
+const int MOD2 = 998244353;
+const double PI = acos(-1.0);
+ 
+//--------------------------------------------------
+// Macros
+//--------------------------------------------------
+ 
+#define pb push_back
+#define eb emplace_back
+#define ff first
+#define ss second
+#define mp make_pair
+ 
+#define all(v) (v).begin(), (v).end()
+#define rall(v) (v).rbegin(), (v).rend()
+ 
+#define sz(x) ((int)(x).size())
+ 
+// Loops
+#define rep(i,a,b) for(int i=(a); i<(b); i++)
+#define per(i,a,b) for(int i=(a); i>=(b); i--)
+ 
+// Range-based loops
+#define foreach(x,v) for(auto &x : (v))
+#define foreach_const(x,v) for(const auto &x : (v))
+ 
+// Input / Output
+#define inp(v) for(auto &x : (v)) cin >> x
+#define out(v) for(const auto &x : (v)) cout << x << ' '; cout << '
+'
+ 
+// Common outputs
+#define yes cout << "YES
+"
+#define no cout << "NO
+"
+ 
+#define endl '
+'
+#define nl cout << '
+'
+ 
+// STL shortcuts
+#define lb lower_bound
+#define ub upper_bound
+ 
+// Vector helpers
+#define uniq(v) v.erase(unique(all(v)), v.end())
+#define maxele(v) (*max_element(all(v)))
+#define minele(v) (*min_element(all(v)))
+#define sum(v) accumulate(all(v), 0LL)
+ 
+// Bit manipulation
+#define bitcount(x) __builtin_popcountll(x)
+#define ctz(x) __builtin_ctzll(x)
+#define clz(x) __builtin_clzll(x)
+ 
+//--------------------------------------------------
+// Fast IO
+//--------------------------------------------------
+ 
+void fastIO() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+}
+ 
+//--------------------------------------------------
+// Math Utilities
+//--------------------------------------------------
+ 
+ll gcd(ll a, ll b) {
+    return __gcd(a, b);
+}
+ 
+ll lcm(ll a, ll b) {
+    return a / gcd(a, b) * b;
+}
+ 
+ll power(ll a, ll b) {
+    ll ans = 1;
+    while (b) {
+        if (b & 1)
+            ans *= a;
+        a *= a;
+        b >>= 1;
+    }
+    return ans;
+}
+ 
+ll modPower(ll a, ll b, ll mod = MOD) {
+    ll ans = 1;
+    a %= mod;
+    while (b) {
+        if (b & 1)
+            ans = ans * a % mod;
+        a = a * a % mod;
+        b >>= 1;
+    }
+    return ans;
+}
+ 
+ll modInverse(ll a, ll mod = MOD) {
+    return modPower(a, mod - 2, mod);
+}
+ 
+//--------------------------------------------------
+// Debug / Print Helpers
+//--------------------------------------------------
+ 
+template<typename T>
+void print(T x) {
+    cout << x << endl;
+}
+ 
+template<typename T>
+void print(vector<T> &v) {
+    foreach_const(x, v)
+        cout << x << ' ';
+    cout << endl;
+}
+ 
+template<typename T>
+void debug(vector<T> &v) {
+    cout << "[ ";
+    foreach_const(x, v)
+        cout << x << ' ';
+    cout << "]
+";
+}
+ 
+template<typename T1, typename T2>
+void print(pair<T1, T2> p) {
+    cout << p.ff << " " << p.ss << endl;
+}
+ 
+//--------------------------------------------------
+// Solve Function
+//--------------------------------------------------
+ 
+void solve() {
+    int n;
+    cin >> n;
+    int sum  = 0;
+    while(n > 0){
+        int digit = n % 10;
+        sum += digit;
+        n = n/10;
+    }
+    cout << sum << endl;
+}
+ 
+//--------------------------------------------------
+// Main
+//--------------------------------------------------
+ 
+int main() {
+ 
+    fastIO();
+ 
+    int T = 1;
+    cin >> T;
+ 
+    while (T--)
+        solve();
+ 
+    return 0;
+}
