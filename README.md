@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 61 | 15 |
+| 62 | 15 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [bitmasks](#bitmasks) (1)
-- [brute force](#brute-force) (8)
+- [brute force](#brute-force) (9)
 - [combinatorics](#combinatorics) (1)
 - [constructive algorithms](#constructive-algorithms) (12)
 - [data structures](#data-structures) (2)
@@ -21,7 +21,7 @@
 - [dp](#dp) (5)
 - [games](#games) (4)
 - [greedy](#greedy) (32)
-- [implementation](#implementation) (9)
+- [implementation](#implementation) (10)
 - [math](#math) (37)
 - [number theory](#number-theory) (8)
 - [schedules](#schedules) (1)
@@ -41,6 +41,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1380A | [Three Indices](https://codeforces.com/contest/1380/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/1380/A%20-%20Three%20Indices/solution.cpp) |
+| 2204A | [Passing the Ball](https://codeforces.com/contest/2204/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2204/A%20-%20Passing%20the%20Ball/solution.cpp) |
 | 2205A | [Simons and Making It Beautiful](https://codeforces.com/contest/2205/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2205/A%20-%20Simons%20and%20Making%20It%20Beautiful/solution.cpp) |
 | 2218A | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2218/A%20-%20The%2067th%20Integer%20Problem/solution.cpp) |
 | 2222A | [A Wonderful Contest](https://codeforces.com/contest/2222/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2222/A%20-%20A%20Wonderful%20Contest/solution.cpp) |
@@ -146,6 +147,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1999A | [A+B Again?](https://codeforces.com/contest/1999/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/1999/A%20-%20A%2BB%20Again%3F/solution.cpp) |
+| 2204A | [Passing the Ball](https://codeforces.com/contest/2204/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2204/A%20-%20Passing%20the%20Ball/solution.cpp) |
 | 2205B | [Simons and Cakes for Success](https://codeforces.com/contest/2205/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2205/B%20-%20Simons%20and%20Cakes%20for%20Success/solution.cpp) |
 | 2211A | [Antimedian Deletion](https://codeforces.com/contest/2211/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2211/A%20-%20Antimedian%20Deletion/solution.cpp) |
 | 2218A | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2218/A%20-%20The%2067th%20Integer%20Problem/solution.cpp) |
