@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 72 | 16 |
+| 73 | 16 |
 
 ---
 
@@ -20,8 +20,8 @@
 - [dfs and similar](#dfs-and-similar) (1)
 - [dp](#dp) (6)
 - [games](#games) (4)
-- [greedy](#greedy) (36)
-- [implementation](#implementation) (11)
+- [greedy](#greedy) (37)
+- [implementation](#implementation) (12)
 - [math](#math) (42)
 - [number theory](#number-theory) (11)
 - [schedules](#schedules) (1)
@@ -119,6 +119,7 @@
 | 1537B | [Bad Boy](https://codeforces.com/contest/1537/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/1537/B%20-%20Bad%20Boy/solution.cpp) |
 | 1543A | [Exciting Bets](https://codeforces.com/contest/1543/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/1543/A%20-%20Exciting%20Bets/solution.cpp) |
 | 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.cpp) |
+| 2169A | [Alice and Bob](https://codeforces.com/contest/2169/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2169/A%20-%20Alice%20and%20Bob/solution.cpp) |
 | 2204B | [Right Maximum](https://codeforces.com/contest/2204/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2204/B%20-%20Right%20Maximum/solution.cpp) |
 | 2207A | [1-1](https://codeforces.com/contest/2207/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2207/A%20-%201-1/solution.cpp) |
 | 2209A | [Flip Flops](https://codeforces.com/contest/2209/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2209/A%20-%20Flip%20Flops/solution.cpp) |
@@ -156,6 +157,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1999A | [A+B Again?](https://codeforces.com/contest/1999/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/1999/A%20-%20A%2BB%20Again%3F/solution.cpp) |
+| 2169A | [Alice and Bob](https://codeforces.com/contest/2169/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2169/A%20-%20Alice%20and%20Bob/solution.cpp) |
 | 2204A | [Passing the Ball](https://codeforces.com/contest/2204/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2204/A%20-%20Passing%20the%20Ball/solution.cpp) |
 | 2205B | [Simons and Cakes for Success](https://codeforces.com/contest/2205/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2205/B%20-%20Simons%20and%20Cakes%20for%20Success/solution.cpp) |
 | 2211A | [Antimedian Deletion](https://codeforces.com/contest/2211/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2211/A%20-%20Antimedian%20Deletion/solution.cpp) |
