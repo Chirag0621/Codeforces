@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 75 | 16 |
+| 76 | 16 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [bitmasks](#bitmasks) (1)
-- [brute force](#brute-force) (12)
+- [brute force](#brute-force) (13)
 - [combinatorics](#combinatorics) (1)
 - [constructive algorithms](#constructive-algorithms) (12)
 - [data structures](#data-structures) (3)
@@ -21,8 +21,8 @@
 - [dp](#dp) (6)
 - [games](#games) (4)
 - [greedy](#greedy) (38)
-- [implementation](#implementation) (13)
-- [math](#math) (44)
+- [implementation](#implementation) (14)
+- [math](#math) (45)
 - [number theory](#number-theory) (11)
 - [schedules](#schedules) (1)
 - [sortings](#sortings) (9)
@@ -41,6 +41,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1351B | [Square?](https://codeforces.com/contest/1351/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/1351/B%20-%20Square%3F/solution.cpp) |
 | 1380A | [Three Indices](https://codeforces.com/contest/1380/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/1380/A%20-%20Three%20Indices/solution.cpp) |
 | 2028A | [Alice's Adventures in ''Chess''](https://codeforces.com/contest/2028/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2028/A%20-%20Alice's%20Adventures%20in%20''Chess''/solution.cpp) |
 | 2204A | [Passing the Ball](https://codeforces.com/contest/2204/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2204/A%20-%20Passing%20the%20Ball/solution.cpp) |
@@ -158,6 +159,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1351B | [Square?](https://codeforces.com/contest/1351/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/1351/B%20-%20Square%3F/solution.cpp) |
 | 1999A | [A+B Again?](https://codeforces.com/contest/1999/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/1999/A%20-%20A%2BB%20Again%3F/solution.cpp) |
 | 2028A | [Alice's Adventures in ''Chess''](https://codeforces.com/contest/2028/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2028/A%20-%20Alice's%20Adventures%20in%20''Chess''/solution.cpp) |
 | 2169A | [Alice and Bob](https://codeforces.com/contest/2169/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2169/A%20-%20Alice%20and%20Bob/solution.cpp) |
@@ -176,6 +178,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1351B | [Square?](https://codeforces.com/contest/1351/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/1351/B%20-%20Square%3F/solution.cpp) |
 | 1374B | [Multiply by 2, divide by 6](https://codeforces.com/contest/1374/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/1374/B%20-%20Multiply%20by%202%2C%20divide%20by%206/solution.cpp) |
 | 1440B | [Sum of Medians](https://codeforces.com/contest/1440/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/1440/B%20-%20Sum%20of%20Medians/solution.cpp) |
 | 1471A | [Strange Partition](https://codeforces.com/contest/1471/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/1471/A%20-%20Strange%20Partition/solution.cpp) |
