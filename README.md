@@ -6,23 +6,23 @@
 
 | Total Problems | Topics |
 |---|---|
-| 76 | 16 |
+| 77 | 16 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [bitmasks](#bitmasks) (1)
-- [brute force](#brute-force) (13)
+- [brute force](#brute-force) (14)
 - [combinatorics](#combinatorics) (1)
 - [constructive algorithms](#constructive-algorithms) (12)
 - [data structures](#data-structures) (3)
 - [dfs and similar](#dfs-and-similar) (1)
 - [dp](#dp) (6)
-- [games](#games) (4)
+- [games](#games) (5)
 - [greedy](#greedy) (38)
 - [implementation](#implementation) (14)
-- [math](#math) (45)
+- [math](#math) (46)
 - [number theory](#number-theory) (11)
 - [schedules](#schedules) (1)
 - [sortings](#sortings) (9)
@@ -53,6 +53,7 @@
 | 2234B | [Palindrome, Twelve and Two Terms](https://codeforces.com/contest/2234/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2234/B%20-%20Palindrome%2C%20Twelve%20and%20Two%20Terms/solution.cpp) |
 | 2250A | [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2250/A%20-%20Threshold%20Movement/solution.cpp) |
 | 2257A | [Creating Abbreviations](https://codeforces.com/contest/2257/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2257/A%20-%20Creating%20Abbreviations/solution.cpp) |
+| 2258B1 | [Carrot Chopdown (Easy Version)](https://codeforces.com/contest/2258/problem/B1) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2258/B1%20-%20Carrot%20Chopdown%20(Easy%20Version)/solution.cpp) |
 | 2259A | [Moo Language School](https://codeforces.com/contest/2259/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2259/A%20-%20Moo%20Language%20School/solution.cpp) |
 
 ### combinatorics
@@ -111,6 +112,7 @@
 | 2218A | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2218/A%20-%20The%2067th%20Integer%20Problem/solution.cpp) |
 | 2237A | [Destroying Towers](https://codeforces.com/contest/2237/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2237/A%20-%20Destroying%20Towers/solution.cpp) |
 | 2244A | [Iskander and Drawings](https://codeforces.com/contest/2244/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2244/A%20-%20Iskander%20and%20Drawings/solution.cpp) |
+| 2258B1 | [Carrot Chopdown (Easy Version)](https://codeforces.com/contest/2258/problem/B1) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2258/B1%20-%20Carrot%20Chopdown%20(Easy%20Version)/solution.cpp) |
 
 ### greedy
 
@@ -222,6 +224,7 @@
 | 2253A | [The Best Card](https://codeforces.com/contest/2253/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2253/A%20-%20The%20Best%20Card/solution.cpp) |
 | 2256A | [Three Numbers on the Blackboard](https://codeforces.com/contest/2256/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2256/A%20-%20Three%20Numbers%20on%20the%20Blackboard/solution.cpp) |
 | 2257B | [Gigantomachy](https://codeforces.com/contest/2257/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2257/B%20-%20Gigantomachy/solution.cpp) |
+| 2258B1 | [Carrot Chopdown (Easy Version)](https://codeforces.com/contest/2258/problem/B1) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2258/B1%20-%20Carrot%20Chopdown%20(Easy%20Version)/solution.cpp) |
 | 2259B | [Minus Two](https://codeforces.com/contest/2259/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2259/B%20-%20Minus%20Two/solution.cpp) |
 
 ### number theory
