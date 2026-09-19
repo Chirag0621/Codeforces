@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 81 | 16 |
+| 82 | 16 |
 
 ---
 
@@ -20,7 +20,7 @@
 - [dfs and similar](#dfs-and-similar) (1)
 - [dp](#dp) (6)
 - [games](#games) (5)
-- [greedy](#greedy) (38)
+- [greedy](#greedy) (39)
 - [implementation](#implementation) (14)
 - [math](#math) (47)
 - [number theory](#number-theory) (13)
@@ -132,6 +132,7 @@
 | 2204B | [Right Maximum](https://codeforces.com/contest/2204/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2204/B%20-%20Right%20Maximum/solution.cpp) |
 | 2207A | [1-1](https://codeforces.com/contest/2207/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2207/A%20-%201-1/solution.cpp) |
 | 2209A | [Flip Flops](https://codeforces.com/contest/2209/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2209/A%20-%20Flip%20Flops/solution.cpp) |
+| 2209B | [Array](https://codeforces.com/contest/2209/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2209/B%20-%20Array/solution.cpp) |
 | 2210A | [A Simple Sequence](https://codeforces.com/contest/2210/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2210/A%20-%20A%20Simple%20Sequence/solution.cpp) |
 | 2210B | [Simply Sitting on Chairs](https://codeforces.com/contest/2210/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2210/B%20-%20Simply%20Sitting%20on%20Chairs/solution.cpp) |
 | 2218B | [The 67th 6-7 Integer Problem](https://codeforces.com/contest/2218/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Chirag0621/Codeforces/blob/HEAD/2218/B%20-%20The%2067th%206-7%20Integer%20Problem/solution.cpp) |
